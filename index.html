@@ -3,32 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SolarGun - Especialistas em projetos fotovoltaicos. Oferecemos soluções completas em energia solar com eficiência e conformidade.">
+    <meta name="keywords" content="energia solar, projetos fotovoltaicos, sustentabilidade, economia de energia">
+    <meta name="author" content="SolarGun">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <title>SolarGun</title>
-
+    <title>SolarGun - Energia Solar Fotovoltaica</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="padding_xs">
-        <h1><a href="">SolarGun</a></h1>
-        <div id="menu_xs">
-            <a href="">Sobre-nós</a>
-            <a href="">Contato</a>
-            <a href="">Redes Sociais</a>
-            <a href="">Como Funciona</a>
-            <a href="">Serviço</a>
-            <a href="">Projetos Realizados</a>
+        <h1><a href="#">SolarGun</a></h1>
+        <!-- Ícone do menu hambúrguer -->
+        <div id="menuIcon_xs" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+        <!-- Itens do menu -->
+        <nav id="menu_xs">
+            <a href="#aboutUs_xs">Sobre Nós</a>
+            <a href="#services_xs">Serviços</a>
+            <a href="#projects_xs">Projetos Realizados</a>
+            <a href="#benefits_xs">Benefícios</a>
+            <a href="#testimonials_xs">Depoimentos</a>
+            <a href="#contact_xs">Contato</a>
+        </nav>
     </header>
 
+    <!-- Conteúdo Principal -->
     <main>
+        <!-- Seção Sobre Nós -->
         <section id="aboutUs_xs" class="padding_xs">
             <h2 class="titleSection_xs">Conheça a SolarGun: Especialistas em Projetos Fotovoltaicos</h2>
             <div class="about_xs">
-                <img src="img/Francisco.enc" alt="">
+                <img src="img/img1.jpg" alt="Francisco - Fundador da SolarGun">
                 <div id="aboutDescription_xs">
                     <p>Há 5 anos no mercado, a SolarGun é referência em projetos fotovoltaicos, oferecendo soluções técnicas de alta qualidade para empresas que buscam eficiência e conformidade com as normas do setor. Nossa especialização está em desenvolver projetos fotovoltaicos completos, desde a concepção até a homologação e aprovação junto às concessionárias.</p>
                     <br>
@@ -36,123 +47,150 @@
                     <br>
                     <p>Quer saber como a SolarGun pode transformar sua ideia em um projeto fotovoltaico de sucesso? Entre em contato conosco!</p>
                     <br>
-                    <br>
-                    <a href="" class="button_xs"><i></i> Solicite um Orçamento</a>
+                    <a href="#contact_xs" class="button_xs">Solicite um Orçamento</a>
                 </div>
             </div>
-
-
+            
         </section>
 
-
-        <!--<section id="service_xs" class="padding_xs">
+        <!-- Seção Serviços -->
+        <section id="services_xs" class="padding_xs">
             <h2 class="titleSection_xs">Nossos Serviços</h2>
             <h3 id="serviceDescription_xs">Oferecemos soluções completas em projetos fotovoltaicos, garantindo eficiência, conformidade e agilidade em todas as etapas.</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Projetos Fotovoltaicos Residenciais</li>
+                <li>Projetos Fotovoltaicos Comerciais</li>
+                <li>Homologação e Aprovação junto às Concessionárias</li>
+                <li>Manutenção de Sistemas Fotovoltaicos</li>
+                <li>Consultoria em Energia Solar</li>
             </ul>
-            <a href="" class="button_xs"><i></i> Tire suas duvidas</a>
-        </section>-->
+            <a href="#contact_xs" class="button_xs">Tire suas Dúvidas</a>
+        </section>
 
+        
+
+        <!-- Seção Diferenciais -->
         <section id="difference_xs" class="padding_xs">
             <h2 class="titleSection_xs">Por que Escolher a SolarGun?</h2>
             <div id="containerDifference_xs">
                 <div class="cardDifference_xs">
                     <p class="differenceCardTittle_xs">Experiência Comprovada</p>
                     <p class="differenceCardDescription_xs">Mais de 100 projetos homologados e aprovados, com 5 anos de atuação.</p>
-                    <i></i>
                 </div>
                 <div class="cardDifference_xs">
                     <p class="differenceCardTittle_xs">Automatização de Processos</p>
                     <p class="differenceCardDescription_xs">Utilizamos um programa especializado que automatiza o preenchimento de documentos, garantindo agilidade e precisão.</p>
-                    <i></i>
                 </div>
                 <div class="cardDifference_xs">
                     <p class="differenceCardTittle_xs">Parcerias Estratégicas</p>
                     <div id="differenceCardDescription_xs">
-                        <a href=""><img src="https://logospng.org/download/cemig/logo-cemig-4096.png" alt=""></a>
-                        <a href=""><img src="https://logospng.org/download/enel/logo-enel-4096.png" alt=""></a>
-                        <a href=""><img src="https://logospng.org/download/equatorial-energia/logo-equatorial-energia-2048.png" alt=""></a>
+                        <a href="#"><img src="https://logospng.org/download/cemig/logo-cemig-4096.png" alt="Cemig"></a>
+                        <a href="#"><img src="https://logospng.org/download/enel/logo-enel-4096.png" alt="Enel"></a>
+                        <a href="#"><img src="https://logospng.org/download/equatorial-energia/logo-equatorial-energia-2048.png" alt="Equatorial Energia"></a>
                     </div>
                 </div>
                 <div class="cardDifference_xs">
                     <p class="differenceCardTittle_xs">Foco em Projetos Técnicos</p>
                     <p class="differenceCardDescription_xs">Somos especialistas em projetos fotovoltaicos, com 100% de dedicação do nosso tempo para entregar projetos precisos e eficientes.</p>
-                    <i></i>
                 </div>
             </div>
         </section>
 
+        <!-- Seção Depoimentos -->
+        <section id="testimonials_xs" class="padding_xs">
+            <h2 class="titleSection_xs">O que Nossos Clientes Dizem</h2>
+            <div id="containerTestimonials_xs">
+                <div class="cardTestimonial_xs">
+                    <p class="testimonialCardDescription_xs">"A SolarGun fez um excelente trabalho no nosso projeto fotovoltaico. Recomendo!"</p>
+                    <p class="testimonialCardAuthor_xs">- João Silva</p>
+                </div>
+                <div class="cardTestimonial_xs">
+                    <p class="testimonialCardDescription_xs">"Profissionais qualificados e atendimento impecável. Muito satisfeito!"</p>
+                    <p class="testimonialCardAuthor_xs">- Maria Oliveira</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
         <section id="contact_xs" class="padding_xs">
-            <h2 class="titleSection_xs"></h2>
+            <h2 class="titleSection_xs" style="color: #fff;">Entre em Contato</h2>
             <form action="">
-                <input type="name" id="name" placeholder="Nome...">
-                <input type="email" id="email" placeholder="E-mail...">
-                <input type="number" id="number" placeholder="Telefone...">
-                <input type="text" id="text" placeholder="Insira o valor da sua fatura...">
-                <button>Receber uma proposta</button>
+                <input type="text" id="name" placeholder="Nome..." required>
+                <input type="email" id="email" placeholder="E-mail..." required>
+                <input type="tel" id="phone" placeholder="Telefone..." required>
+                <select id="serviceType" required>
+                    <option value="" disabled selected>Selecione um serviço</option>
+                    <option value="projeto">Projeto Fotovoltaico</option>
+                    <option value="manutencao">Manutenção</option>
+                    <option value="consultoria">Consultoria</option>
+                </select>
+                <button type="submit">Receber uma Proposta</button>
             </form>
         </section>
 
+        <!-- Seção Redes Sociais -->
         <section id="social_xs" class="padding_xs">
             <h2 class="titleSection_xs">Conecte-se com a SolarGun</h2>
             <h3>Siga nossas redes sociais, entre em contato e fique por dentro das novidades do mundo da energia solar!</h3>
             <div id="containerSocial_xs">
                 <div class="linkSocial">
-                    <a href=""><img src="img/whatsapp.png" alt=""></a><!-- WhatsApp -->
+                    <a href="#"><img src="img/whatsapp.png" alt="WhatsApp"></a>
                 </div>
                 <div class="linkSocial">
-                    <a href=""><img src="img/instagram.png" alt=""></a><!-- Instagram -->
+                    <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
                 </div>
                 <div class="linkSocial">
-                    <a href=""><img src="img/linkedin.png" alt=""></a><!-- Instagram -->
+                    <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
                 </div>
-
             </div>
-            
         </section>
 
-        <section id="project_xs" class="padding_xs">
+        <!-- Seção Projetos Realizados (Sem Carrossel) -->
+        <section id="projects_xs" class="padding_xs">
             <h2 class="titleSection_xs">Projetos Realizados</h2>
             <h3>Mais de 100 projetos homologados e aprovados, entregues com excelência e conformidade.</h3>
-            
-            <!-- Swiper Container -->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- Cards dentro do Swiper -->
-                    <div class="swiper-slide">
-                        <div class="cardProject_xs">
-                            <img src="caminho/para/imagem1.jpg" alt="Projeto 1">
-                            <h4>Fulano de tal - Potência Instalada</h4>
-                            <p>09/12/2018</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="cardProject_xs">
-                            <img src="caminho/para/imagem2.jpg" alt="Projeto 2">
-                            <h4>Fulano de tal - Potência Instalada</h4>
-                            <p>09/12/2018</p>
-                        </div>
-                    </div>
-                    <!-- Adicione mais slides conforme necessário -->
+            <div id="containerProjects_xs">
+                <div class="cardProject_xs">
+                    <img src="img/projeto1.jpg" alt="Projeto 1">
+                    <h4>Projeto Residencial - Potência Instalada</h4>
+                    <p>09/12/2018</p>
                 </div>
-                <!-- Adicionar navegação (setas) -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <!-- Adicionar paginação (bolinhas) -->
-                <div class="swiper-pagination"></div>
+                <div class="cardProject_xs">
+                    <img src="img/projeto2.jpg" alt="Projeto 2">
+                    <h4>Projeto Comercial - Potência Instalada</h4>
+                    <p>15/03/2019</p>
+                </div>
+                <div class="cardProject_xs">
+                    <img src="img/projeto3.jpg" alt="Projeto 3">
+                    <h4>Projeto Industrial - Potência Instalada</h4>
+                    <p>22/07/2020</p>
+                </div>
+                <!-- Adicione mais cards conforme necessário -->
             </div>
         </section>
 
+
     </main>
-    <footer>
-        <h2>SolarGun - 2025</h2>
+
+    <!-- Footer -->
+    <footer class="padding_xs">
+        <div id="footerContent_xs">
+            <div id="footerLinks_xs">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#aboutUs_xs">Sobre Nós</a>
+                <a href="#contact_xs">Contato</a>
+            </div>
+            <div id="footerSocial_xs">
+                <a href="#"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <p>SolarGun - 2025</p>
     </footer>
 
+    <!-- Scripts -->
     <script src="functions.js"></script>
 </body>
 </html>
